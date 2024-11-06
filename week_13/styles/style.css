@@ -1,0 +1,27 @@
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form__btn {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(18, 160, 13, 0.562);
+  color: white;
+  font-weight: 600;
+}
